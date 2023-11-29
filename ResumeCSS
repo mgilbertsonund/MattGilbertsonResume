@@ -2,57 +2,157 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-style: Arial;
 }
 
-.full {
+body {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 0 20px;
+}
+
+.resume_left h3 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: solid darkseagreen;
+  color: white;
+  padding: 1px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.resume {
   width: 800px;
   max-width: 100%;
   height: auto;
+  background: white;
   position: relative;
-  margin: 20px auto;
+  margin: 50px auto;
   display: flex;
 }
 
-.full .left {
-  background-color: hsla(120, 100%, 75%, 0.3);
-  width: 270px;
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-  padding: 135px;
+.resume .resume_left {
+  width: 225px;
+  background: darkslategray;
+  padding: 50px 40px;
+  position: relative;
 }
 
-.full .right{
+.resume .resume_right {
+  width: 575px;
+  background: gainsboro;
+  padding: 50px 40px;
+  position: relative;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 4px 10px 0;
+  z-index: 1;
+  position: relative;
+  margin-top: -25px;
+}
+
+.name {
+  font-size: 40px;
+  line-height: 48px;
+  text-align: right;
+  padding: 10px;
+  background: darkseagreen;
+  margin-left: -250px;
+  margin-right: -40px;
+}
+
+.header {
   background-color: white;
-  width: 530px;
-  padding: 30px 100px;
-  display: auto;
-  flex-direction: row;
-  background-color: lightsalmon;
+  padding: 10px;
+  width: 800px
 }
 
-.full .right .contacts {
-  width: 275px;
-  padding: 20px;
-  text-align: right;
-  line-height: 20px;
-}
-
-.full .right .title {
-  width: 275px;
-  padding: 20px;
-  text-align: right;
-  line-height: 20px;
-}
-
-.full .left .intro {
-  font-size: 14px;
-  width: 275px;
-  padding: 50px 20px;
+.resume_right h3 {
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: solid darkseagreen;
+  color: black;
+  padding: 1px;
   text-align: left;
-  line-height: 25px;
+  margin-bottom: 10px;
+  margin-left: -10px;
 }
 
-.full .left .img{
-  
+table, tr, td {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  padding: 1px;
+}
+
+.contacts {
+  background: lightgray;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+h2 {
+ font-size: 18px;
+ font-weight: bold;
+ border-bottom: solid darkseagreen;
+ color: black;
+ padding: 1px;
+ text-align: left;
+ margin-bottom: 10px;
+ margin-left: -10px;
+}
+
+.exp-header {
+  margin-top: 13px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  padding: 1px;
+  text-align: left;
+  margin-left: -10px;
+}
+
+h5 {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding: 1px;
+  text-align: left;
+}
+
+h6 {
+  font-size: 10px;
+  font-weight: normal;
+  color: black;
+  padding: 1px;
+  text-align: left;
+}
+
+ul {
+  font-size: 11px;
+  color: black;
+  padding: 10px;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.education {
+  margin-top: 10px;
 }
