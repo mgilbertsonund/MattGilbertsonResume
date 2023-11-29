@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+  
+<body>
+  <section>
+    <div class="full">
+      <div class="left">
+        <div class="intro">
+          <h2>Data Analyst</h2>
+          <h4>Sportradar</h4>
+          <h5>Bio</h5>
+          <p>Dedicated Data Analyst for 2 years looking to advance my career by leveraging the skills and experiences I've gained through a team enviornment, to approach any new challenges and problems with an analytical approach, and an eagerness to learn.</p>
+        </div>
+        <div class="img">
+          <img src="">
+        </div>
+      </div>
+   
+      <div class="right">
+        <div class="title">
+          <h1>Matthew Gilbertson</h1>
+        </div>
+        <div class="contacts">
+          <p>Phone: 952-465-9290</p>
+          <p>Address: 1234 West Ave S, Bloomington, MN 55437</p>
+        </div>
+
+        <div class="exp-header">
+          <h3>Professional Experience</h3>
+        </div>
+
+        <div>
+          <h4>Sportradar</h4>
+          <h5>Data Analyst</h5>
+          <h6>April 2022 - Current</h6>
+
+          <ul>
+            <li>Analysing betting patterns at over 600+ bookmakers</li>
+            <li>Reporting on unusual and potentially suspicious matches across 25+ sports for global sports federations</li>
+            <li>Compiling risk analysis on behalf of sports federations and state authorities</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Sportradar</h4>
+          <h5>Data Entry Specialist</h5>
+          <h6>November 2019 - April 2022</h6>
+
+          <ul>
+            <li>Collect data in real-time for various sports accurately and efficiently to gurantee high quality data for clients</li>
+            <li>Monitor data feeds and debug errors</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>United Airlines</h4>
+          <h5>Ramp Supervisor</h5>
+          <h6>November 2017 - August 2019</h6>
+
+          <ul>
+            <li>Coordinate the daily load plan with dispatch, management and pilots</li>
+            <li>Led a team of 30+ individuals</li>
+          </ul>
+        </div>
+        
+        <div class="Education">
+          <h2>Education</h2>
+          <table>
+            <tr>
+              <th>University</th>
+              <th>Years</th>
+              <th>Degree</th>
+            </tr>
+            <tr>
+              <td>University of North Dakota</td>
+              <td>2012-2017</td>
+              <td>B.A. in Mathematics</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>     
+</body>
+      
+</html>
